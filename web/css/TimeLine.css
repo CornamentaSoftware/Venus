@@ -1,0 +1,48 @@
+.TimeLine{
+    width: 50%;
+    height: 50%;
+    float: left
+}
+.Logo{
+    margin-left: 1%;
+    float: left;
+}
+.Venus{
+    padding-top: 13px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.Logo img {
+    height: 50px;
+}
+.btnDerecha{
+    float: right;
+    margin-right: 10%
+}
+.Intercambiable{
+    float: left;
+    width: 22%;
+    height: 80%;
+}
+.todoInt{
+    width: 100%;
+    padding: 10px;
+}
+.Img{
+    width: 75%;
+    float: left;
+    left: -20px;
+    position: relative;
+}
+.User{
+    float: left;
+    width: 25%;
+    z-index: 1;
+    position: relative;
+}
+.User Img{
+    width: 100%;
+}
+.Img Img{
+    width: 90%;
+}

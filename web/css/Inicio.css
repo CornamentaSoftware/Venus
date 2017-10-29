@@ -1,0 +1,198 @@
+.Logo{
+    width: 100%;
+    height: 760px;
+    background-image: url(../Img/fondo2.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-color: rgb(23, 7, 41);
+}
+a{
+    color: rgba(245, 222, 179, 0.76);
+    text-decoration: none;
+}
+.slogan{
+    font-size: 25px;
+    margin-top: 20px;
+    color: #e98b81;
+}
+.Datos{
+    width: 30%;
+    margin-right: 3%;
+    float: left;
+    margin-top: 5%;
+}
+.ochenta{
+    width: 80%;
+    margin: auto;
+}
+.Logo Img{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-size: 18px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.79);
+    line-height: 35px;
+}
+.T{
+    height: 150%;
+    width: 100%;
+}
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 100%;
+    color: rgba(245, 222, 179, 0.76);
+    font-size: 25px;
+    font-weight: 600;
+}
+.MenuA{
+    width: 100%;
+    height: 10%;
+    float: left;
+    background-color: rgb(29, 36, 64);
+}
+.Empresa{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(182, 116, 112);
+    position: relative;
+}
+hr{
+    border-style: none;
+    border-width: 0;
+    margin: 32px 0;
+    color: rgba(26,26,26,.15);
+    background-color: rgba(26,26,26,.15);
+    height: 1px;
+}
+.Derecha{
+    padding-right: 8%;
+    float: right;
+    padding-top: 5px;
+}
+.ca-menu li{
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+    transition: all 300ms linear;
+}
+.chico{
+    width: 130px;
+}
+.grande{
+    width: 150px;
+}
+.ca-menu li a{
+    display: block;
+    position:relative;
+}
+#H{
+    font-family: FontAwesome;
+    color: #e98b81;
+    font-size: 40px;
+    width: 40%;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    position: relative;
+    text-align: center;
+    transition: all 400ms linear;
+}
+#M{
+    font-family: FontAwesome;
+    color: #e98b81;
+    font-size: 40px;
+    width: 40%;
+    height: 100%;
+    top: 5px;
+    left: -5px;
+    position: relative;
+    text-align: center;
+    transition: all 400ms linear;
+}
+.ca-content{
+    position: absolute;
+    left: 25%;
+    width: 70%;
+    height: 100%;
+    top: 0px;
+}
+.ca-main{
+    font-size: 18px;
+    color: #e98b81;
+    text-align: right;
+    transition: all 200ms linear;
+}
+.Derecha ul{
+    margin: 0px;
+}
+.ca-menu li:last-child{
+    margin-right: 0px;
+}
+.ca-menu li:hover{
+    background-color: #664a58;
+}
+.ca-menu li:hover #H{
+    color: #dc9b94;
+    font-size: 48px;
+}
+.ca-menu li:hover #M{
+    color: #dc9b94;
+    font-size: 48px;
+}
+.ca-menu li:hover .ca-main{
+    color: #dc9b94;
+    animation: moveFromLeftRotate 300ms ease;
+}
+.ca-menu li:hover{
+    color: #dc9b94;
+    animation: moveFromBottom 500ms ease;
+}
+
+@keyframes moveFromLeftRotate{
+    from {
+        transform: translateX(-100%) rotate(-90deg);
+    }
+    to {
+        transform: translateX(0%) rotate(0deg);
+    }
+}
+
+.Bienvenida{
+    background: rgba(0, 167, 120, 0.3);
+    margin-top: 20px;
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    }
+    
+.e{
+    font-family: 'Lobster Two', cursive;
+    font-weight:600;
+    font-size: 85px;
+    margin: 15px;
+}
+.f{
+    font-family: 'Merienda', cursive;
+    font-size: 45px;
+    font-weight:100;
+    margin: 5px;
+}
+.d{
+    font-family: 'Raleway', cursive;
+    font-size: 45px;
+    font-weight:bold;
+    margin: 5px;
+}
+#datosU{
+    font-size: 30px;
+    text-align: center;
+}

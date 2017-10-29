@@ -1,0 +1,91 @@
+.Todo {
+    width: 50%;
+    margin: 25%;
+    border-radius: 5px;
+    margin-top: 10%;
+    height: 53%;
+    background-color: #d8847c;
+    position: absolute;
+    box-shadow: 5px 5px 10px rgba(22, 9, 45, 0.43);
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.52);
+}
+body{
+    background-image: url(../Img/Ing.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+.Div{
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.Div2{
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #d8847c;
+}
+.Div Img{
+    border-radius: 5px;
+    height: 100%;
+}
+.ochenta{
+    margin: auto;
+    position: relative;
+    width: 80%
+}
+button{
+    font-family: 'Raleway', sans-serif;
+    border: 1.5px solid rgba(255, 255, 255, 0.52);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
+    background-color: rgba(158, 47, 86, 0);
+    color: rgba(255, 255, 255, 0.52);
+    transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+}
+button:hover {
+    background-color: rgb(231, 142, 133);
+    transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+}
+input{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.52);
+    margin-bottom: 10%;
+    font-family: 'Raleway', sans-serif;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: rgba(158, 47, 86, 0);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 2px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.52);
+}
+.sesenta{
+    height: 60%
+}
+.R{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.52);
+    margin-bottom: 8%;
+    font-family: 'Raleway', sans-serif;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: rgba(158, 47, 86, 0);
+    font-size: 18px;
+    padding: 2px;
+    border-radius: 2px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.52);
+}

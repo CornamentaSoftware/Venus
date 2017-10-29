@@ -1,0 +1,23 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 8px;  
+}
+.DancingScript{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    color: #8d3536;
+}
+textArea{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #D37E71;
+    background: rgb(238, 238, 238);
+    border: 1px solid #fe7678;
+    border-radius: 5px;
+    height: 100px;
+    width: 90%;
+}
+

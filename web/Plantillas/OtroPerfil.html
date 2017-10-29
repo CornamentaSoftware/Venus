@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Someone else´s profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+            html{
+                margin: 0px;
+            }
+            body{
+                margin: 0px;
+            }
+            #portada{
+                position: absolute;
+                width: 100%;
+                height: 28%;
+                background-image: url(../Img/Ing.jpg);
+                background-size: cover;
+            }
+            #informacion{
+                position: absolute;
+                width: 20%;
+                height: 80%;
+                top: 10%;
+                left: 5%;
+                background-color: black;
+            }
+                #pic{
+                    position: relative;
+                    width: 100%;
+                    height: 50%;
+                    margin-top: 0px;
+                    top: -16px;
+                    background-image: url("../Img/Ana.jpeg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+                    #pic > div{
+                        position: relative;
+                        width: 55%;
+                        margin-left: 10%;
+                        top: 80%;
+                        height: 12%;
+                        border-radius: 30px;
+                        border: none;
+                        background-color: white;
+                    }
+                        #pic > div >p{
+                            position: relative;
+                            text-align: center;
+                            top: 50%;
+                            -ms-transform: translateY(-50%);
+                            -webkit-transform: translateY(-50%);
+                            transform: translateY(-50%);
+                        }
+                #info{
+                    position: relative;
+                }
+            #contenido{
+                position: absolute;
+                width: 100%;
+                height: 75%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div id="portada"></div>
+            <div id="informacion">
+                <div id="pic">
+                    <div>
+                        <p>Añadir a contactos</p>
+                    </div>
+                </div>
+                <div id="info">
+                    
+                </div>
+            </div>
+            <div id="contenido"></div>
+        </div>
+    </body>
+</html>
