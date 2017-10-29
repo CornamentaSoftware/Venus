@@ -5,7 +5,6 @@
  */
 package servlets;
 
-import static com.sun.corba.se.spi.presentation.rmi.StubAdapter.request;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -30,7 +29,7 @@ public class servletSession extends HttpServlet {
             //si coincide usuario y password y además no hay sesión iniciada
             sesion.setAttribute("usuario", usu);
             //redirijo a página con información de login exitoso
-            response.sendRedirect("Perfil.html");
+            response.sendRedirect("Plantillas/Menu.html");
 //            response.setContentType("text/html");
 //            //Mostramos los  valores en el cliente
 //            PrintWriter out = response.getWriter();
