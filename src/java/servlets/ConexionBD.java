@@ -5,10 +5,24 @@
  */
 package servlets;
 
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
 /**
- *
- * @author Ana
  */
 public class ConexionBD {
-    
+        
+        public Connection getConexion(){
+            Connection cn = null;
+            try{
+                Class.forName("com.mysql.jdbc.Driver");
+                cn = DriverManager.getConnection("jdbc:mysql://localhost/venus", "root", "n0m3l0");
+                System.out.print("Conexion Satisfactoria");
+            }
+            catch (Exception e){
+                System.out.print("Error de conexion: "+e);
+            }
+            return cn;
+        }
 }
