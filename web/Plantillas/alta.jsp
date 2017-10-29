@@ -36,8 +36,9 @@
             try {
                 sta.executeUpdate("insert into Usuario(Nombre_Usuario, Apellido_Usuario, Correo_Usuario, Username_Usuario, Contrasenia_Usuario)"
                         + "values('" + nombre + "','" + apellidos + "','" + correo + "', '" + username + "','" + contra + "');");
-                out.println("<script>alert('Bienvenido ' " + nombre + ")</script>");
+                out.println("<script>alert('Bienvenido ' +" + nombre + ")</script>");
                 con.close();
+                out.println("<meta http-equiv=\"refresh\" content=\".00000001; url=http://localhost:8080/Venus/Plantillas/Menu.html\">");
             } catch (SQLException error) {
                 out.print(error.toString());
             }
