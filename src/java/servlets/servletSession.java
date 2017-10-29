@@ -30,17 +30,6 @@ public class servletSession extends HttpServlet {
             sesion.setAttribute("usuario", usu);
             //redirijo a página con información de login exitoso
             response.sendRedirect("Plantillas/Menu.html");
-//            response.setContentType("text/html");
-//            //Mostramos los  valores en el cliente
-//            PrintWriter out = response.getWriter();
-//
-//            out.println("<a href=\"/EjemploSession/catalogo.jsp\"> Link al catalogo del carrito  </a>");
-//            out.println("<br>");
-//            out.println("ID de la sesi&oacute;n: " + sesion.getId());
-//
-//            out.println("<br>Hora actual ");
-//            out.println("<br>Creación:  ");
-//            out.println("<br>Última vez accesada:  ");
         } else {
             //lógica para login inválido
         }
