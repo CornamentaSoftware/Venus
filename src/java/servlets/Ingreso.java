@@ -39,7 +39,7 @@ public class Ingreso extends HttpServlet {
             Logger.getLogger(Ingreso.class.getName()).log(Level.SEVERE, null, ex);
         }
         try{
-            result = stm.executeQuery("Select * from usuario where Nombre_Usuario = '" + user + "' && Contrasenia_Usuario = '" + contra + "';");
+            result = stm.executeQuery("Select * from usuario where Username_Usuario = '" + user + "' && Contrasenia_Usuario = '" + contra + "';");
             if(result.first()){
                 //si coincide usuario y password y además no hay sesión iniciada
                 sesion.setAttribute("usuario", user);
