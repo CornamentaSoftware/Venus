@@ -12,7 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
         <%@page import="java.sql.*,java.io.*" %>
         <%
             String nombre = request.getParameter("nombre");
