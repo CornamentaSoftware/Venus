@@ -8,6 +8,10 @@
         <servlet-name>logout</servlet-name>
         <servlet-class>servlets.logout</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Ingreso</servlet-name>
+        <servlet-class>servlets.Ingreso</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>servletSession</servlet-name>
         <url-pattern>/servletSession</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>logout</servlet-name>
         <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Ingreso</servlet-name>
+        <url-pattern>/Ingreso</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
