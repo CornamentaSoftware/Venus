@@ -34,7 +34,4 @@ public class servletSession extends HttpServlet {
             //lógica para login inválido
         }
     }
-
-    
-
 }
