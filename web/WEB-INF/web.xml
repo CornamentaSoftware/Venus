@@ -4,9 +4,17 @@
         <servlet-name>servletSession</servlet-name>
         <servlet-class>servlets.servletSession</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>servlets.logout</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>servletSession</servlet-name>
         <url-pattern>/servletSession</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
