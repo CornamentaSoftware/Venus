@@ -49,7 +49,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response)
                 stm.executeUpdate("insert into Usuario(Nombre_Usuario, Apellido_Usuario, Correo_Usuario, Username_Usuario, Contrasenia_Usuario)"
                         + "values('" + nombre + "','" + apellidos + "','" + correo + "', '" + username + "','" + contra + "');");
                 conexion.close();
-                response.sendRedirect("/Venus/Plantillas.html");
+                response.sendRedirect("/Venus/Ingresar.html");
             }catch(SQLException error)
             {
                 System.out.println(error.toString());
