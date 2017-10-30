@@ -49,7 +49,7 @@ public class Ingreso extends HttpServlet {
                     out.println("</head>");
                     out.println("<body>");
                 result = stm.executeQuery("Select * from usuario where Nombre_Usuario = '" + user + "' && Contrasenia_Usuario = '" + contra + "';");
-                if(result.next()){
+                if(result.first()){
                     out.println("<h1>Validado</h1>");
                     //si coincide usuario y password y además no hay sesión iniciada
                     sesion.setAttribute("usuario", user);
