@@ -38,37 +38,24 @@ public class Ingreso extends HttpServlet {
         } catch (SQLException ex) {
             Logger.getLogger(Ingreso.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-        try (PrintWriter out = response.getWriter()) {
-            
-            try{
-                out.println("<!DOCTYPE html>");
-                    out.println("<html>");
-                    out.println("<head>");
-                    out.println("<title>Servlet ValidaUsuario</title>");            
-                    out.println("</head>");
-                    out.println("<body>");
-                result = stm.executeQuery("Select * from usuario where Nombre_Usuario = '" + user + "' && Contrasenia_Usuario = '" + contra + "';");
-                if(result.first()){
-                    out.println("<h1>Validado</h1>");
-                    //si coincide usuario y password y además no hay sesión iniciada
-                    sesion.setAttribute("usuario", user);
+        try{
+            result = stm.executeQuery("Select * from usuario where Nombre_Usuario = '" + user + "' && Contrasenia_Usuario = '" + contra + "';");
+            if(result.first()){
+                //si coincide usuario y password y además no hay sesión iniciada
+                sesion.setAttribute("usuario", user);
 //                  redirijo a página con información de login exitoso
-                    response.sendRedirect("../Venus/Plantillas/Menu.html");
-                }
-                else{
-                    //lógica para login inválido
-                    out.println("<script>alert('Usuario no encontrado');</script>");
-                    response.sendRedirect("../Venus/Plantillas/Inicio.html");
-                }
-                out.println("</body>");
-                out.println("</html>");
-            }catch(SQLException error)
-            {
-                System.out.println(error.toString());
+                response.sendRedirect("../Venus/Plantillas/Menu.html");
             }
-            
+            else{
+                //lógica para login inválido
+                response.sendRedirect("../Venus/Plantillas/Inicio.html");
+            }
+        }catch(SQLException error)
+        {
+            System.out.println(error.toString());
         }
+            
+        
         
     }
 

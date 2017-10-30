@@ -12,6 +12,10 @@
         <servlet-name>Ingreso</servlet-name>
         <servlet-class>servlets.Ingreso</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Registro</servlet-name>
+        <servlet-class>servlets.Registro</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>servletSession</servlet-name>
         <url-pattern>/servletSession</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>Ingreso</servlet-name>
         <url-pattern>/Ingreso</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Registro</servlet-name>
+        <url-pattern>/Registro</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
