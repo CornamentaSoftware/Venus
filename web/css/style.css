@@ -5,93 +5,47 @@
             body{
                 margin: 0px;
             }
-            #informacion{
-                position: absolute;
-                width: 20%;
-                height: 80%;
-                top: 10%;
-                left: 5%;
-                background-color: white;
-                z-index: 1;
-            }
-                #pic{
-                    position: relative;
-                    height: 50%;
-                    margin-top: 0px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;
-                    border-radius: 100%;
-
-                }
-                    #pic div{
-                        position: relative;
-                        width: 55%;
-                        margin-left: 10%;
-                        top: 80%;
-                        height: 12%;
-                        border-radius: 30px;
-                        border: none;
-                        background-color: #7E2954;
-                    }
-                        #pic div p{
-                            position: relative;
-                            text-align: center;
-                            top: 50%;
-                            -ms-transform: translateY(-50%);
-                            -webkit-transform: translateY(-50%);
-                            transform: translateY(-50%);
-                            font-family: 'Josefin Slab', sans-serif;
-                            font-size: 25px;
-                            font-size: 25px;
-                            font-weight: 600;
-                            color: white;
-                            }
-                #info{
-                    position: relative;
-                }
-            #contenido{
+            #Nav{
                 position: absolute;
                 width: 100%;
-                height: 100%;
-                top: 5%;
+                height: 6%;
+                top: 0px;
+                background-color: #F8E8E5;
+                z-index: 0;
+            }
+            #Informacion{
+                position: absolute;
+                width: 18%;
+                height: 94%;
+                top: 6%;
+                left: 0px;
+                background-color: #9C455F;
+                z-index: 0;
+            }
+                #ppic{
+                    margin-top: 0px;
+                    width: 100%;
+                    border-radius: 100%;
+                }
+                p{
+                    text-align: center;
+                }
+            #Contenido{
+                position: absolute;
+                width: 64%;
+                height: 94%;
+                top: 6%;
+                margin-left: 18%;
                 z-index: 0;
                 background-color: #F8E8E5;
             }
-            #nav{
+            #Menu{
                 position: absolute;
-                width: 100%;
-                height: 10%;
-                top: 0px;
-                background-color: #7E2954;
-                z-index: 0;
+                width: 18%;
+                height: 94%;
+                top: 6%;
+                left: 82%;
+                background-color: #F8E8E5;
+                z-index: 1;
             }
-                #nav ul {
-                    position: relative;
-                    width: 75%;
-                    margin-left: 20%;
-                    margin-top: -16px;
-                    list-style-type: none;
-                }
-                    #nav ul li{
-                        position: relative;
-                        display: inline-block;
-                        float: left;
-                        width: 25%;
-                        text-align: center;
-                        transform: translateY(100%);
-                        font-family: 'Josefin Slab', sans-serif;
-                        font-size: 25px;
-                        font-weight: 600;
-                        color: white;
-                    }
-                        
-                #contenido #cont{
-                position: relative;
-                width: 70%;
-                left: 27%;
-                height: 80%;
-                top: 0%;
-                background-color: white;
-                z-index: 0;
-            }
+        
