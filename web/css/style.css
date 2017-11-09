@@ -22,12 +22,12 @@
                 background-color: #9C455F;
                 z-index: 0;
             }
-                #ppic{
+                #Informacion img{
                     margin-top: 0px;
                     width: 100%;
                     border-radius: 100%;
                 }
-                p{
+                #Informacion p{
                     text-align: center;
                 }
             #Contenido{
@@ -39,6 +39,27 @@
                 z-index: 0;
                 background-color: #F8E8E5;
             }
+                #pub{
+                    margin-top: 5%;
+                    margin-left: 5%;
+                    width: 90%;
+                    background-color: white;
+                }
+                    #pub #ppic{
+                        margin-top: 1%;
+                        margin-left: 1%;
+                        width: 10%;
+                        border-radius: 100%;
+                    }
+                    #pub #contenido{
+                        margin-top: 2%;
+                        margin-left: 12%; 
+                        width: 88%;
+                    }
+                    #pub #contenido p{
+                        margin-top: 0px;
+                        margin-left: 0%;
+                    }
             #Menu{
                 position: absolute;
                 width: 18%;
